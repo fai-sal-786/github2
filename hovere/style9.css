@@ -1,0 +1,90 @@
+*
+margin: 50px auto;
+}
+.parent {
+
+    width: 500px;
+    margin: 0px auto;
+    text-align: center;
+    
+
+}
+
+.box {
+
+    min-height: 100px;
+    width: 100px;    
+    border: 1px solid black;
+    display: inline-block;
+    margin: 5px;
+    
+}
+
+.box:hover{
+   
+    color: white;
+    background-color: black;
+
+}
+.icon_box{
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    margin: 8px;
+    text-align: center; 
+    display: inline-block;   
+    border-radius: 5px;    
+    box-shadow: 2px 2px 5px grey;
+    font-family: 'RubiK MapS', system-ui;
+    
+}
+
+.tiktok:hover{
+
+    color: white;
+    background-color: black;
+    border-color: black;
+    
+
+}
+
+.github:hover{
+    
+    color: white;
+    background-color: purple;
+    border-color: purple;
+    
+
+}
+
+.youtube:hover{
+    
+    color: white;
+    background-color: red;
+    border-color: red;
+
+}
+
+i{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 53px;
+    /*color: white;*/
+    
+}
+
+h4{
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.grandparent{
+    min-height: 300px;
+    max-height: 600px;
+    background-image:linear-gradient(to bottom, rgb(190, 208, 231), rgb(242, 244, 247)); ;
+    border: 1px solid black;
+    /*overflow: hidden;*/
+    overflow: scroll;
+    
+    
+}
